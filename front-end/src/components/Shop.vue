@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: 'Home' //this is the name of the component
+  name: 'Shop' //this is the name of the component
 }
 </script>
 <style>
