@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page-name">
     <h1>Bespoke</h1>
     <p>Information. This is the bespoke page</p>
   </div>

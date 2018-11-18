@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page-name">
     <h1>Shop</h1>
     <p>Information. This is the home page</p>
   </div>
@@ -11,4 +11,10 @@ export default {
 }
 </script>
 <style>
+.page-name {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
 </style>

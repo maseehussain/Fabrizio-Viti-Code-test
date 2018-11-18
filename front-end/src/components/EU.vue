@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page-name">
     <h1>EU</h1>
     <p>Information. This is the EU page</p>
   </div>
