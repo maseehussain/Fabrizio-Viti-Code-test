@@ -33,7 +33,7 @@
   .nav-bar input {
     border: none;
     padding: 10px;
-    margin: 0 280px 0 190px;
+    margin: 0 280px 0 165px;
     width: 220px;
   }
 
@@ -47,6 +47,10 @@
     position: absolute;
   }
 
+  .nav-bar {
+    margin: 0 10px;
+  }
+
   .nav-bar a {
     text-decoration: none;
     color: white;
@@ -56,7 +60,7 @@
   .nav-bar input {
     border: none;
     padding: 10px;
-    margin: 0 280px 0 190px;
+    margin: 0 280px 0 165px;
     width: 220px;
   }
 
