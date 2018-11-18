@@ -13,30 +13,9 @@
   </div>
 </template>
 <style>
+
 /* big landscape tablets, laptops, and desktops */
 @media (min-width:1025px) {
-.nav-bar-container {
-  text-align: center;
-  top: 0;
-  left: 5%;
-  margin-top: 50px;
-  position: absolute;
-}
-
-.nav-bar a {
-  text-decoration: none;
-  color: white;
-  padding: 0 15px 0 15px;
-}
-
-.nav-bar input {
-  border: none;
-  padding: 10px;
-  margin: 0 280px 0 190px;
-  width: 220px;
-}
-
-}
   .nav-bar-container {
     text-align: center;
     top: 0;
@@ -57,8 +36,32 @@
     margin: 0 280px 0 190px;
     width: 220px;
   }
+
+}
+
+  .nav-bar-container {
+    text-align: center;
+    top: 0;
+    left: 5%;
+    margin-top: 50px;
+    position: absolute;
+  }
+
+  .nav-bar a {
+    text-decoration: none;
+    color: white;
+    padding: 0 15px 0 15px;
+  }
+
+  .nav-bar input {
+    border: none;
+    padding: 10px;
+    margin: 0 280px 0 190px;
+    width: 220px;
+  }
+
 /* smartphones, Android phones, landscape iPhone */
-  @media (min-width:370px)  {
+  @media (min-width:375px)  {
 
 }
 </style>
