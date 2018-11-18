@@ -11,10 +11,4 @@ export default {
 }
 </script>
 <style>
-.page-name {
-  position: absolute;
-  top: 40%;
-  left: 40%;
-}
-
 </style>

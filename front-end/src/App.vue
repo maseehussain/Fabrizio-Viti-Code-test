@@ -1,18 +1,24 @@
 <template>
   <div id="app">
     <img src="./assets/BANNER.png">
+    <Navigation></Navigation>
     <router-view/>
   </div>
 </template>
 
 <script>
+import Navigation from './components/Navigation'
 export default {
-  name: 'App'
+  name: 'app',
+  components: {
+    'Navigation': Navigation
+  }
 }
 </script>
 
 <style>
 #app {
+  position: relative;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -21,7 +27,12 @@ export default {
 }
 
 #app img {
-  position: relative;
   width: 100%;
+}
+
+.page-name {
+  position: absolute;
+  top: 35%;
+  left: 40%;
 }
 </style>
