@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/BANNER.png">
+    <img src="./assets/MADISON.png">
     <Navigation></Navigation>
     <router-view/>
   </div>
@@ -34,8 +35,8 @@ export default {
 
     .page-name {
       position: absolute;
-      top: 35%;
-      left: 42%;
+      top: 18%;
+      left: 40%;
     }
 }
 
@@ -52,8 +53,8 @@ export default {
 
   .page-name {
     position: absolute;
-    top: 35%;
-    left: 42%;
+    top: 18%;
+    left: 40%;
   }
 
 /* smartphones, Android phones, landscape iPhone */
