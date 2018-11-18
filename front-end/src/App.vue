@@ -41,24 +41,6 @@ export default {
 
 /* smartphones, Android phones, landscape iPhone */
 @media (min-width:370px)  {
-#app {
-  position: relative;
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: white;
-}
 
-#app img {
-  width: 585px;
-  height:auto;
-}
-
-.page-name {
-  position: absolute;
-  top: 25%;
-  left: 60%;
-  }
 }
 </style>
